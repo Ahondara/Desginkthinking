@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+
+<html>
+<title>INTRODUCTION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="C:\Users\SMASH Scholar\Documents\GitHub\Ahondara.github.io\Portfolio\sites\designthinking\styles\style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://static.psycom.net/wp-content/uploads/2017/11/54035133_L-1280x429.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) --> `
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-blue">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-blue">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-blue ">INTRODUCTION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-blue">SCHIZOPHRENIA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-blue">MYTHS</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div style="background-color: black" class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small ">
+    <p id="nameCall" class="">Chance</p>
+    <p id="nameCall" class="">Xavier</p>
+    <p id="nameCall" class="">Gregroy</p>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-black  w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INTRODUCTION</span></h5>
+    <p class="w3-center">Schizophrenia is a chronic and severe mental disorder that affects how a person thinks, feels, and behaves. People with schizophrenia may seem like they have lost touch with reality. Although schizophrenia is not as common as other mental disorders, the symptoms can be very disabling.
+    </p>
+    <p class="w3-center">Scientists have long known that schizophrenia sometimes runs in families. However, there are many people who have schizophrenia who don’t have a family member with the disorder and conversely, many people with one or more family members with the disorder who do not develop it themselves.
+    </p>
+    <p class="w3-center">Scientists believe that many different genes may increase the risk of schizophrenia, but that no single gene causes the disorder by itself. It is not yet possible to use genetic information to predict who will develop schizophrenia.
+    </p>
+    <p class="w3-center"> Scientists think that an imbalance in the complex, interrelated chemical reactions of the brain involving the neurotransmitters (substances that brain cells use to communicate with each other) dopamine and glutamate, and possibly others, plays a role in schizophrenia.cientists believe that many different genes may increase the risk of schizophrenia, but that no single gene causes the disorder by itself. It is not yet possible to use genetic information to predict who will develop schizophrenia.
+    </p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SOLUTIONS</span></h5>
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Subcategories</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Symptoms</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="w3-text-amber">Paranoid schizophrenia</h5>
+      <p class="w3-text-grey"><i>A person with schizophrenia may have false beliefs, or delusions, that an individual or group of people are conspiring to harm them or members of their family. They may spend time thinking about ways to protect themselves from the people they believe are persecuting them.</i></p><br>
+    
+      <h5 class="w3-text-amber">Hebephrenic schizophrenia</h5>
+      <p class="w3-text-grey"><i>Disorganized thinking and behavior are features of schizophrenia. The person may have incoherent and illogical thoughts and speech. This can make it difficult to perform daily activities, such as preparing meals and taking care of personal hygiene, or washing. People may not be able to understand what the patient is saying. This can lead to frustration and agitation.</i></p><br>
+    
+      <h5 class="w3-text-amber">Catatonic schizophrenia</h5>
+      <p class="w3-text-grey"><i>Catatonia can occur with schizophrenia and a range of other conditions including bipolar disorder. For this reason, it is now considered a specifier for schizophrenia and other mood disorders, rather than a type of schizophrenia.</i></p><br>
+    
+      <h5 class="w3-text-amber">Schizoaffective disorder</h5>
+      <p class="w3-text-grey"><i>Schizoaffective disorder is a chronic mental health condition characterized primarily by symptoms of schizophrenia, such as hallucinations or delusions, and symptoms of a mood disorder, such as mania and depression.</i></p><br>
+    
+      <h5 class="w3-text-amber">Prodromal schizophrenia</h5>
+      <p class="w3-text-grey"><i>The symptoms of schizophrenia normally appear during early adulthood, but they can sometimes emerge during childhood, at the age of 10 years or earlier. It is extremely rare, with an incidence of less than 0.04 percent.</i></p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="w3-text-amber">Behavioral</h5>
+      <p class="w3-text-grey"><i>Social isolation, disorganized behavior, aggression, agitation, compulsive behavior, excitability, hostility, repetitive movements, self-harm, or lack of restraint</i></p><br>
+      
+      <h5 class="w3-text-amber">Cognitive</h5>
+      <p class="w3-text-grey"><i>Thought disorder, delusion, amnesia, belief that an ordinary event has special and personal meaning, belief that thoughts aren't one's own, disorientation, memory loss, mental confusion, slowness in activity, or false belief of superiority</i></p><br>
+    
+      <h5 class="w3-text-amber">Mood</h5>
+      <p class="w3-text-grey"><i>Anger, anxiety, apathy, feeling detached from self, general discontent, loss of interest or pleasure in activities, elevated mood, or inappropriate emotional response</i></p><br>
+      
+      <h5 class="w3-text-amber">Psychological</h5>
+      <p class="w3-text-grey"><i>Hallucination, paranoia, hearing voices, depression, fear, persecutory delusion, or religious delusion</p><br>
+    
+      <h5 class="w3-text-amber">Speech</h5>
+      <p class="w3-text-grey"><i>Circumstantial speech, incoherent speech, rapid and frenzied speaking, or speech disorder</i></p>
+    </div>  
+    <img src="https://static1.squarespace.com/static/500ee7a3c4aaf86e468510a3/t/53ff65c0e4b06d59889468e7/1409246656564/?format=1000w" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide ">MYTHS</span></h5>
+
+    <div class="w3-container where w3-padding-48 w3-card">
+      <h5 id="WorDs" class="w3-text-blue" >Mental health problems don't affect me.</h5>
+      <p class="w3-text-white">"Mental health problems are actually very common. In 2014, about:
+      <ul>One in five American adults experienced a mental health issue</ul>
+      <ul>One in 10 young people experienced a period of major depression</ul>
+		<ul>One in 25 Americans lived with a serious mental illness, such as schizophrenia, bipolar disorder, or major depression"</ul></div><br>
+    
+      <h5 id="WorDs" class="w3-text-blue">People with mental health problems are violent and unpredictable.</h5>
+      <p class="w3-text-white">"The vast majority of people with mental health problems are no more likely to be violent than anyone else. Most people with mental illness are not violent and only 3%–5% of violent acts can be attributed to individuals living with a serious mental illness. In fact, people with severe mental illnesses are over 10 times more likely to be victims of violent crime than the general population. You probably know someone with a mental health problem and don't even realize it, because many people with mental health problems are highly active and productive members of our communities."</p><br>
+    
+      <h5 id="WorDs" class="w3-text-blue">People with mental health problems can snap out of it if they try hard enough.</h5>
+      <p class="w3-text-white">"Mental health problems have nothing to do with being lazy or weak and many people need help to get better. Many factors contribute to mental health problems, including:
+
+      <ul>Biological factors, such as genes, physical illness, injury, or brain chemistry</ul>
+      <ul>Life experiences, such as trauma or a history of abuse</ul>
+      <ul>Family history of mental health problems
+          
+      People with mental health problems can get better and many recover completely."</ul></p><br>
+    
+      <h5 id="WorDs" class="w3-text-blue">I can't do anything for a person with a mental health problem.</h5>
+      <p class="w3-text-white">"Friends and loved ones can make a big difference. Only 44% of adults with diagnosable mental health problems and less than 20% of children and adolescents receive needed treatment. Friends and family can be important influences to help someone get the treatment and services they need by:<ul>Reaching out and letting them know you are available to help</ul>
+	  <p></p>
+      <ul>Helping them access mental health services</ul>
+      <ul>Treating them with respect, just as you would anyone else</ul>
+      <ul>Refusing to define them by their diagnosis or using labels such as crazy"</ul></p><br>
+    
+      <h5 id="WorDs" class="w3-text-blue">Prevention doesn't work. It is impossible to prevent mental illnesses.</h5>
+      <p class="w3-text-white">"Prevention of mental, emotional, and behavioral disorders focuses on addressing known risk factors such as exposure to trauma that can affect the chances that children, youth, and young adults will develop mental health problems. Promoting the social-emotional well-being of children and youth leads to:
+	  <ul>Higher overall productivity</ul>
+	  <ul>Better educational outcomes</ul>
+	  <ul>Lower crime rates</ul>
+ 	  <ul>Stronger economies</ul>
+	  <ul>Lower health care costs</ul>
+	  <ul>Improved quality of life</ul>
+	  <ul>Increased lifespan</ul>
+	<ul>Improved family life"</ul></div>
+	</body>  
+</html>
+
+<script>
+
+
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>

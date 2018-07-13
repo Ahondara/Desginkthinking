@@ -1,0 +1,38 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.cw-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+#igPC{
+    width:100%;
+}
+
+#hidE{
+    color: black;
+}
+
+#supName{
+    color: aqua;
+}
+
+#supDef{
+    color: red;
+}
+
+#supSi{
+    width: 80px;
+} 
+
+a {text-decoration: none}
+
+
+body, html {height: 100%}
+
+#MEnuco{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+}
+
